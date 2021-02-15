@@ -3,7 +3,7 @@ Rest API endpoint using spring boot and with the ability to support create, upda
 
 
 ## Clone the application
-clone the repository from git hub
+clone the repository from git hub - https://github.com/shehari/angular-client.git
 
 ## Install npm modules
 run 'npm install'

@@ -1,0 +1,21 @@
+<h3>Update Country</h3>
+<div style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Country Name</label>
+      <input type="text" class="form-control" id="countryName" required [(ngModel)]="country.countryName" name="countryName">
+    </div>
+
+    <div class="form-group">
+      <label for="name">President Name</label>
+      <input type="text" class="form-control" id="presidentName" required [(ngModel)]="country.presidentName" name="presidentName">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Description</label>
+      <input type="text" class="form-control" id="description" required [(ngModel)]="country.description" name="description">
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>

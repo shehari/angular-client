@@ -1,0 +1,18 @@
+<h2>Country Details</h2> 
+
+<hr/>
+<div *ngIf="country">
+  <div>
+    <label><b>Country Name: </b></label> {{country.countryName}}
+  </div>
+  <div>
+    <label><b>President Name: </b></label> {{country.presidentName}}
+  </div>
+  <div>
+    <label><b>Description: </b></label> {{country.description}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Country List</button><br>
